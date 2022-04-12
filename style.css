@@ -1,9 +1,16 @@
+/*  basic css */
 *{
+    background-color: bisque;
     margin: 0;
     padding: 0;
 }
 #openMenu{
-    height: 50px;
+    height: 60px;
+    background-color: #fa85;
+    border: black solid 1px;
+}
+#openMenu:hover{
+    background-color: #fa8a;
 }
 .nav-container{
     display: flex;
@@ -13,9 +20,15 @@
     display: grid;
     grid-template-columns: 0.1fr 1fr;
     padding: 20px;
+    background-color: #fa87;
 }
 .nav-boton{
+    background-color: #fa84;
     color: blue;
     text-decoration: none;
-    padding-left: 20px;
+    padding-left: 10px;
+    border: black solid 1px;
+}
+.nav-boton:hover{
+    background-color: #fa8a;
 }
